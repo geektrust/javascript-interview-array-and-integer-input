@@ -8,7 +8,6 @@ function main() {
         throw new Error("no command line arguments passed")
     }
 
-    // Parse the JSON input string like: '[[4,5,6,7,0,1,2], 0]'
     const parsed = JSON.parse(input[0])
     const nums = parsed[0]
     const target = parsed[1]
